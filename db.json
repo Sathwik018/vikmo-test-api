@@ -1,6 +1,14 @@
 {
-  "products": [
-    { "id": 1, "name": "Laptop", "price": 49999 },
-    { "id": 2, "name": "Phone", "price": 19999 }
+  "categories": [
+    { "id": 1, "category": "Boots", "parent": "Clothing", "quantity": 1 },
+    { "id": 2, "category": "Glasses", "parent": "Kitchen", "quantity": 2 },
+    { "id": 3, "category": "Shirts", "parent": "Clothing", "quantity": 3 },
+    { "id": 4, "category": "Charger", "parent": "Electronics", "quantity": 4 }
+  ],
+  "Brands": [
+    { "id": 1, "brand": "Boots", "quantity": 1 },
+    { "id": 2, "brand": "Glasses", "quantity": 2 },
+    { "id": 3, "brand": "Shirts", "quantity": 3 },
+    { "id": 4, "brand": "Charger", "quantity": 4 }
   ]
 }
